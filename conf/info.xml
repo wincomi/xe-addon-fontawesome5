@@ -4,7 +4,7 @@
 	<description xml:lang="ko">
 		Font Awesome 5을 불러오는 애드온입니다.
 	</description>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<date>2018-08-22</date>
 
 	<author email_address="admin@wincomi.com" link="https://www.wincomi.com/">
@@ -24,7 +24,7 @@
 					<title xml:lang="ko">사용</title>
 				</options>
 			</var>
-			<var name="fa_prefix" type="select">
+			<var name="fa_icon_prefix" type="select">
 				<title xml:lang="ko">아이콘 스타일</title>
 				<description xml:lang="ko">Free 버전일 경우 Solid 선택을 권장합니다. 지원하는 레이아웃의 경우 아이콘 스타일이 변경됩니다. 레이아웃 내에서 {$fa_prefix}로 사용할 수 있습니다.</description>
 				<options value="fas">
